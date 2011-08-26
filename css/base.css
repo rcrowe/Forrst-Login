@@ -1,0 +1,38 @@
+body {
+	background: #FFF;
+	font: 12px/1.7em arial,sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+.error, .alert, .notice, .success, .info {
+	padding: 0.8em;
+	margin-bottom: 1em;
+	border: 2px solid #DDD;
+}
+
+.error {
+	background-color: #FBE3E4;
+	color: #8A1F11;
+	border-color: #FBC2C4;
+}
+
+.notice {
+	background: #FFF6BF;
+	color: #514721;
+	border-color: #FFD324;
+}
+
+.info {
+	background: #D5EDF8;
+	color: #205791;
+	border-color: #92CAE4;
+}
+
+.success {
+	background: #E6EFC2;
+	color: #264409;
+	border-color: #C6D880;
+}

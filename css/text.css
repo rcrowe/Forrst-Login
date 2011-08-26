@@ -1,0 +1,24 @@
+h1,h2,h3,
+h4,h5,h6		{ color: #111; margin-bottom: .75em; }
+
+h1 				{ font-size: 24px; line-height: 1em; }
+h2 				{ font-size: 20px; font-weight: normal; color: #222; margin-bottom: 1em }
+h3 				{ font-size: 16px; color: #333; line-height: 1; margin-bottom: .75em }
+h4 				{ font-size: 14px; color: #666; line-height: 1.25; margin-bottom: 1.25em }
+h5 				{ font-size: 12px; font-weight: bold; margin-bottom: 1.5em }
+h6 				{ font-size: 11px; font-weight: bold }
+
+p           	{ margin: 0 0 1.5em }
+p.last      	{ margin-bottom: 0 }
+img         	{ border: none; }
+
+ul, ol			{ margin-left: 28px; margin-bottom: 1.5em; }
+li ul,
+li ol			{ margin-top: 1em; }
+ul li			{ list-style-type: disc; }
+li				{ margin-bottom: .5em; }
+
+a				{ color: #06C; text-decoration: none; }
+a:visited		{ color: #667 }
+a:focus, 
+a:hover     	{ text-decoration: underline; }
